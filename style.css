@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+p.fontimport {
+  font-family: "Alkatra", cursive;
+  font-size: 36px;
+  background-color: yellow;
+}
+
+main,
+section,
+p {
+  font-family: monospace;
+}
+body {
+  font-size: 24px;
+}
+
+
+
+ul li:not(:last-child) {
+    color: saddlebrown;
+}
+
+ul {
+  list-style-type: armenian;
+  text-align: center;
+  list-style-position: inside;
+  font-size: 36px;
+  font-weight: 700;
+  list-style-image: url(/img/checklist.png);
+}
+
+a {
+  font-size: 68px;
+  color: rgb(122, 122, 255);
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
+
+a:focus {
+  color: black;
+}
