@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+  }
+
+  img {
+    display: block;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .container {
+    background-color: snow;
+    
+  }
+
+  .dear-profile {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-image: url(../img/mountain.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .profile {
+    width: 35%;
+
+  }
+
+  .profile img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 20%;
+  }
+
+  .h1 {
+    font-size: 500%;
+    color: brown;
+    text-shadow: 2px 2px 5px black;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .offscreen {
+    position: absolute;
+    left: -1000000px;
+  }
